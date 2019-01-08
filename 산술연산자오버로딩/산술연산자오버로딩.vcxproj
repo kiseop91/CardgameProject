@@ -140,8 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ch9_1.cpp" />
+    <ClCompile Include="Position2D.cpp" />
     <ClCompile Include="일반예.cpp" />
     <ClCompile Include="준수소스.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Position2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
